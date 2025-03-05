@@ -9,6 +9,7 @@ public class Bai10 {
             System.out.println("2. Kiểm tra một số có phải là số hoàn hảo không.");
             System.out.println("3. Tìm và tính tổng tất cả các ước của một số.");
             System.out.println("4. Thoát chương trình.");
+            System.out.println("Nhập lựa chon: ");
             int choice = sc.nextInt();
             int n;
             switch (choice) {
@@ -48,6 +49,7 @@ public class Bai10 {
                     }
                     break;
                 case 3:
+                    System.out.println("Nhập n: ");
                     n = sc.nextInt();
                     int sumDivisors = 0;
                     System.out.print("Các ước của " + n + " là: ");
